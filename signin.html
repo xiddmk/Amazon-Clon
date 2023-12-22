@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    #main {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logob {
+        padding: 5px;
+        height: 70px;
+        width: 200px;
+    }
+
+    .logob img {
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    #loginn {
+        border: 1px solid rgb(195, 195, 195);
+        margin-top: 10px;
+        height: 47%;
+        width: 27%;
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+    #loginn a{
+        text-decoration: none;
+        color: #000000;
+        font-weight: 900;
+    }
+
+    .botpage {
+        margin-top: 30px;
+        width: 27%;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid #b0b0b0;
+
+    }
+
+
+
+    .botpage a button {
+        background-color: #ffdd36;
+        border: none;
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    .create {
+        padding: 8px 30px;
+    }
+</style>
+<style>
+    #loginn {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #loginn h3 {
+        padding-bottom: 20px;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
+    #loginn h4 {
+        font-size: 12px;
+        font-family: 'Lucida Sans';
+        padding-bottom: 5px;
+    }
+
+    #loginn input {
+        height: 35px;
+        margin-bottom: 15px;
+        padding: 0px 8px;
+        border-radius: 5px;
+        border: none;
+        border: 1px solid #b0b0b0;
+    }
+
+    #loginn .countinue {
+        padding: 8px 0px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 20px;
+        background-color: #ffe043;
+        transition: all 1s;
+    }
+
+    #loginn .countinue:hover {
+        background-color: #ffd814;
+
+    }
+
+    #loginn h5 {
+        line-height: 25px;
+    }
+
+    #loginn a {
+        margin-top: 30px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dib {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 26px;
+        padding-bottom: 30px;
+    }
+</style>
+
+<body>
+    <div id="main">
+        <div class="logob">
+            <img src="https://amazonuk.gcs-web.com/static-files/aa3cb695-a228-45aa-bf4e-80cd8b5ddf05" alt="">
+        </div>
+
+
+        <div id="loginn">
+            <div class="dib">
+                <h1>Sign in</h1>
+                <h4><a href="/index.html">X</a></h4>
+            </div>
+
+            <h4>Email or mobile phone number</h4>
+            <form action="#">
+                <input type="email">
+                <button class="countinue">Countinue</button>
+            </form>
+            <h5>By continuing, you agree to Amazon's <a href="#">Condition of <br> use</a> and <a href="#">Privacy
+                    Notice</a></h5>
+
+            <a href="#">Need help?</a>
+        </div>
+
+
+        <div class="botpage">
+            <h6>New to Amazon?</h6>
+            <br>
+            <a href="./signup.html"><button class="create">Create your Amazon account
+                </button></a>
+        </div>
+    </div>
+</body>
+
+</html>
